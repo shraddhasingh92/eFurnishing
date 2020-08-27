@@ -1,0 +1,14 @@
+#pagin {
+  li {
+    display: $inline-blk-display;
+    padding: $val-10;
+    .page-link {
+      border: $none;
+    }
+  }
+}
+
+.current {
+  color: $white;
+  background: $dark-blue;
+}

@@ -1,0 +1,100 @@
+.no-gutter {
+  padding: $val-0;
+  margin: $val-0;
+}
+
+.product-list {
+  position: $relative-view;
+  width: $full-view;
+  padding-top: 30px;
+  height: $auto;
+}
+
+.product-list-container {
+  position: $relative-view;
+  width: $full-view;
+  height: $full-view;
+  margin: $val-0;
+}
+
+.item-container {
+  position: $relative-view;
+  padding: 20px 20px;
+}
+
+.img-item {
+  position: $relative-view;
+  width: $full-view;
+  min-height: 300px;
+  background-size: $cover-bg;
+  background-repeat: no-repeat;
+  cursor: $cursor-pointer;
+}
+
+.white-box {
+  position: $relative-view;
+  top: -23px;
+  left: -1px;
+  width: 70%;
+  height: 24px;
+  background-color: $white;
+}
+
+.item-title {
+  position: $relative-view;
+  width: $full-view;
+  top: -23px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #252427;
+  text-overflow: $ellipsis;
+  white-space: $nowrap;
+  overflow: $hidden;
+  cursor: $cursor-pointer;
+}
+
+.item-detail-top {
+  position: $relative-view;
+  width: $full-view;
+  top: -23px;
+  font-size: 16px;
+  color: #252427;
+  text-overflow: $ellipsis;
+  white-space: $nowrap;
+  overflow: $hidden;
+  margin: $val-0;
+}
+
+.left-detail, .right-detail {
+  text-overflow: $ellipsis;
+  white-space: $nowrap;
+  overflow: $hidden;
+  padding: $val-0;
+}
+
+.left-text {
+  color: #A7A7A7;
+}
+
+.right-text {
+  font-size: 20px;
+}
+
+.item-detail-bottom {
+  position: $relative-view;
+  width: $full-view;
+  padding: $val-0;
+  margin: $val-0;
+  top: -23px;
+}
+
+.rating {
+  padding: $val-0;
+  margin: $auto $val-0;
+  font-size: 20px;
+}
+
+.cart-icon {
+  font-size: 40px;
+  cursor: $cursor-pointer;
+}

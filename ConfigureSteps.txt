@@ -1,0 +1,9 @@
+1) Run the server using the command npm run start
+
+2) The server is configured to run on port 5000.
+
+3) Once the server is successfully running open up the client project
+
+4) Run the project through Live Server in Visual Studio Code.
+
+5) The project loads on the specified port and accesses all data from the server.

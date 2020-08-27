@@ -1,0 +1,184 @@
+<!-- View to load home page -->
+<div class="container-fluid no-gutter">
+    <div class="container-fluid row no-gutter">
+        <!-- Left Panel to show filter list-->
+        <div class="col-lg-3">
+            <div class="container-fluid filter-container">
+                <br><br>
+                <p class="filter-text">FILTER BY</p>
+                <br>
+                <div class="panel-group" id="accordionMenu" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h5 class="panel-title">
+                                <a class="collapsed panel-text" role="button" data-toggle="collapse"
+                                    data-parent="#accordionMenu" href="#collapseOne" aria-expanded="false"
+                                    aria-controls="collapseOne">
+                                    Collection
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                            aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for collection">
+                                        </div>
+                                    </div>
+                                    <label class="form-control">Italian Collect</label>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for collection">
+                                        </div>
+                                    </div>
+                                    <label class="form-control">Turkish Style</label>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for collection">
+                                        </div>
+                                    </div>
+                                    <label class="form-control">Old English</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h5 class="panel-title">
+                                <a class="collapsed panel-text" role="button" data-toggle="collapse"
+                                    data-parent="#accordionMenu" href="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Color
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for collection">
+                                        </div>
+                                    </div>
+                                    <label class="form-control">Red</label>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for collection">
+                                        </div>
+                                    </div>
+                                    <label class="form-control">Yellow</label>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for collection">
+                                        </div>
+                                    </div>
+                                    <label class="form-control">Blue</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h5 class="panel-title">
+                                <a class="collapsed panel-text" role="button" data-toggle="collapse"
+                                    data-parent="#accordionMenu" href="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Category
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                            aria-labelledby="headingThree">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="checkbox" aria-label="Checkbox for collection">
+                                    </div>
+                                </div>
+                                <label class="form-control">Living Room</label>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="checkbox" aria-label="Checkbox for collection">
+                                    </div>
+                                </div>
+                                <label class="form-control">Dining Room</label>
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <input type="checkbox" aria-label="Checkbox for collection">
+                                    </div>
+                                </div>
+                                <label class="form-control">Kitchen</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" id="headingFour">
+                            <h5>
+                                <a class="collapsed panel-text">
+                                    Price Range
+                                </a>
+                            </h5>
+                        </div>
+                        <!-- Multi Range Slider Start -->
+                        <div slider id="slider-distance">
+                            <div>
+                                <div inverse-left style="width:70%;"></div>
+                                <div inverse-right style="width:70%;"></div>
+                                <div range style="left:30%;right:40%;"></div>
+                                <span thumb style="left:30%;"></span>
+                                <span thumb style="left:60%;"></span>
+                                <div sign style="left:30%;">
+                                    <span id="value">30</span>
+                                </div>
+                                <div sign style="left:60%;">
+                                    <span id="value">60</span>
+                                </div>
+                            </div>
+                            <input type="range" tabindex="0" value="30" max="100" min="0" step="1" oninput="
+                            this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                            var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                            var children = this.parentNode.childNodes[1].childNodes;
+                            children[1].style.width=value+'%';
+                            children[5].style.left=value+'%';
+                            children[7].style.left=value+'%';children[11].style.left=value+'%';
+                            children[11].childNodes[1].innerHTML=this.value;" />
+
+                            <input type="range" tabindex="0" value="60" max="100" min="0" step="1" oninput="
+                            this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                            var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                            var children = this.parentNode.childNodes[1].childNodes;
+                            children[3].style.width=(100-value)+'%';
+                            children[5].style.right=(100-value)+'%';
+                            children[9].style.left=value+'%';children[13].style.left=value+'%';
+                            children[13].childNodes[1].innerHTML=this.value;" />
+                        </div>
+                        <!-- Slider End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Right Panel to show products list-->
+        <div class="col-lg-9 product-list">
+            <div class="product-list-container row" id="productsList">
+            </div>
+        </div>
+    </div>
+    <!-- Show Pagination at end -->
+    <ul id="pagin">
+    </ul>
+</div>

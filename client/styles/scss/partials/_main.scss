@@ -1,0 +1,64 @@
+html, body {
+  position: $relative-view;
+  width: $full-view;
+  height: $full-view;
+}
+
+.main-logo {
+  background: url(#{$imgPath}MainLogo.svg) no-repeat;
+  background-size: $cover-bg;
+}
+  
+.product-pic-1 { 
+  background: url(#{$imgPath}product-images/pic1.jpg) no-repeat;
+  background-size: $cover-bg;
+}
+
+.product-pic-2 {
+  background: url(#{$imgPath}product-images/pic2.jpg) no-repeat;
+  background-size: $cover-bg;
+}
+
+.product-pic-3 { 
+  background: url(#{$imgPath}product-images/pic3.jpg) no-repeat;
+  background-size: $cover-bg;
+}
+
+.product-pic-4 {
+  background: url(#{$imgPath}product-images/pic4.jpg) no-repeat;
+  background-size: $cover-bg;
+}
+
+.product-pic-5 {
+  background: url(#{$imgPath}product-images/pic5.jpg) no-repeat;
+  background-size: $cover-bg;
+}
+
+.product-pic-6 {
+  background: url(#{$imgPath}product-images/pic6.jpg) no-repeat;
+  background-size: $cover-bg;
+}
+
+.marked {
+  color: $black;
+}
+  
+.unmarked {
+  color: $gray;
+}
+  
+// Extra small devices (phones, 600px and down)
+@media only screen and (max-width: 600px){
+  .main-logo {
+    width: $val-40;
+    height: $val-70;
+  }
+}
+  
+// Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+  .main-logo{
+    width: $val-70;
+    height: $val-70;
+  }
+}

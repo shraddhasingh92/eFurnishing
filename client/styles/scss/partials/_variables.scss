@@ -1,0 +1,45 @@
+// Assets path
+$imgPath : "../../assets/images/";
+
+// View
+$relative-view: relative;
+$absolute-view: absolute;
+$inline-blk-display: inline-block;
+$blk-display: block; 
+$flex-display: flex;
+$per-50: 50%;
+$full-view: 100%;
+
+// Cursor Events
+$cursor-pointer: pointer;
+$all: all;
+
+// Colors
+$white: #FFF;
+$black: #000;
+$gray: #CCC;
+$dark-blue: #002036;
+$yellow: #FBC548;
+$transparent: transparent;
+$red: red;
+$dark-gray: #333;
+$light-gray: #e4e5e7;
+
+// Display
+$none: none;
+$cover-bg: cover;
+$ellipsis: ellipsis;
+$nowrap: nowrap;
+$hidden: hidden;
+$auto: auto;
+
+// Placement & Borders
+$center: center;
+$solid: solid;
+
+// Units & Values
+$val-0: 0;
+$val-10: 10px;
+$val-18: 18px;
+$val-40: 40px;
+$val-70: 70px;

@@ -1,0 +1,452 @@
+[
+    {
+        "uid": "0001",
+        "name": "Coombes",
+        "type": "LOUNGE",
+        "price": 2600,
+        "rating": 4,
+        "img": "product-pic-1",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    },
+    {
+        "uid": "0002",
+        "name": "Keeve Set",
+        "type": "TABLE & CHAIRS",
+        "price": 590,
+        "rating": 4,
+        "img": "product-pic-2",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    },
+    {
+        "uid": "0003",
+        "name": "Nille",
+        "type": "ARMCHAIR",
+        "price": 950,
+        "rating": 5,
+        "img": "product-pic-3",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    },
+    {
+        "uid": "0004",
+        "name": "Momo",
+        "type": "SHELVES",
+        "price": 890,
+        "rating": 4,
+        "img": "product-pic-4",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    },
+    {
+        "uid": "0005",
+        "name": "Penemille",
+        "type": "CHAIR",
+        "price": 120,
+        "rating": 4,
+        "img": "product-pic-5",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    },
+    {
+        "uid": "0006",
+        "name": "Kappu",
+        "type": "SHELVES",
+        "price": 420,
+        "rating": 4,
+        "img": "product-pic-6",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    },
+    {
+        "uid": "0007",
+        "name": "Coombes",
+        "type": "LOUNGE",
+        "price": 2600,
+        "rating": 4,
+        "img": "product-pic-3",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    },
+    {
+        "uid": "0008",
+        "name": "Keeve Set",
+        "type": "TABLE & CHAIRS",
+        "price": 590,
+        "rating": 4,
+        "img": "product-pic-1",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    },
+    {
+        "uid": "0009",
+        "name": "Nille",
+        "type": "ARMCHAIR",
+        "price": 950,
+        "rating": 5,
+        "img": "product-pic-2",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    },
+    {
+        "uid": "0010",
+        "name": "Momo",
+        "type": "SHELVES",
+        "price": 890,
+        "rating": 4,
+        "img": "product-pic-6",
+        "description": "Three-seater sofa made from high-quality leatherette and fabric in brown color. Product Dimensions: Length (71 inch), width (30 inch), height (31 inch). Over 30 tests conducted to ensure quality. Fabric does not lose color while rubbing. Passed durability testing with 100 kg on each seat and backrest for 25,000 cycles. Meets Indian Standards IS 12674/ IS 5416 for performance and stringent European Safety Requirement Standard EN 12520. Warranty on manufacturing defects: 3 years.",
+        "availableColor": [
+            {
+                "code": "#5D4ABC",
+                "value": "Purple",
+                "isSelected": false
+            },
+            {
+                "code": "#FE938C",
+                "value": "Pink",
+                "isSelected": true
+            },
+            {
+                "code": "#90BE6D",
+                "value": "Green",
+                "isSelected": false
+            },
+            {
+                "code": "#4281A4",
+                "value": "Blue",
+                "isSelected": false
+            }
+        ],
+        "imageGroup": [
+            {
+                "id": "Img1",
+                "url": "assets/images/product-images/side1.png"
+            },
+            {
+                "id": "Img2",
+                "url": "assets/images/product-images/side2.png"
+            },
+            {
+                "id": "Img3",
+                "url": "assets/images/product-images/side3.png"
+            }
+        ]
+    }
+]

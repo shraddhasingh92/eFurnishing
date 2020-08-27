@@ -1,0 +1,150 @@
+.main-container {
+  position: $relative-view;
+  width: $full-view;
+  height: $full-view;
+  margin: $val-0;
+}
+
+.left-content {
+  position: $relative-view;
+  width: $full-view;
+  height: $full-view;
+  display: $flex-display;
+  padding-bottom: 30px;
+}
+
+.right-content {
+  position: $relative-view;
+  width: $full-view;
+  height: $full-view;
+}
+
+.title {
+  position: $relative-view;
+  width: $full-view;
+  font-size: 20px;
+  font-weight: 700;
+  color: #A9A9A9;
+  text-overflow: $ellipsis;
+  white-space: $nowrap;
+  overflow: $hidden;
+}
+
+.collection {
+  color: #062230;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.description {
+  color: $black;
+  font-family: Calibri;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.color-wrap {
+  padding: $val-0;
+  display: $flex-display;
+}
+
+.color-dot {
+  display: $flex-display;
+  height: $val-40;
+  width: $val-40;
+  border-radius: $per-50;
+  margin: $val-10 20px $val-10 $val-0;
+  cursor: $cursor-pointer;
+}
+
+.checkMark {
+  font-size: 20px;
+  color: $white;
+}
+
+.price-tag {
+  display: $flex-display;
+  padding-bottom: 20px;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.shop-btn {
+  min-width: 140px;
+  background-color: #032031;
+  border: $none;
+}
+
+.cart-icon {
+  font-size: 36px;
+  font-size: 36px;
+  margin: $auto $val-0;
+  padding: 10px $val-0;
+  cursor: $cursor-pointer;
+}
+
+.buy-cart {
+  font-size: 36px;
+  font-size: 36px;
+  margin: $auto;
+  padding: 10px 30px;
+  cursor: $cursor-pointer;
+}
+
+.carousel-indicators {
+  top: 100%;
+}
+
+.carousel-thumbnails .carousel-indicators {
+  img {
+    max-width: 50px;
+    height: 50px;
+    overflow: $hidden;
+    display: $blk-display;
+  }
+
+  li {
+    height: $auto;
+    max-width: 50px;
+    width: 50px;
+    border: $none;
+    box-shadow: 1px 3px 5px 0px rgba($val-0, $val-0, $val-0, 0.75);
+  }
+}
+
+.control-bg {
+  position: $relative-view;
+  display: $flex-display;
+  width: $full-view;
+  max-width: 50px;
+  height: 50px;
+  margin: $auto;
+  background-color: #FFF3DC;
+}
+
+.arrow-icon {
+  font-size: 24px;
+  color: $black;
+  margin: $auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #carousel-images {
+    width: 300px;
+    height: 300px;
+    margin: $auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #carousel-images {
+    width: 600px;
+    height: 600px;
+    margin: $auto;
+  }
+}

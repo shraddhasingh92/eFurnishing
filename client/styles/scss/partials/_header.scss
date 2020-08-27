@@ -1,0 +1,60 @@
+.nav-item {
+  display: $flex-display;
+  margin: $auto $val-0;
+  cursor: $cursor-pointer;
+}
+
+.brand-logo {
+  position: $relative-view;
+  padding: $val-0;
+}
+
+.search-box {
+  margin-left: $val-10;
+  padding: $val-10;
+  border-top-style: $hidden;
+  border-right-style: $hidden;
+  border-left-style: $hidden;
+  border-bottom-color: $yellow;
+
+  &:focus {
+    outline: $none;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+  .cart-icon {
+    font-size: 28px;
+    margin: $val-10 $val-0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px) {
+  .main-nav {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .nav-link {
+    padding-left: 20px;
+  }
+
+  .align-nav {
+    margin-left: $auto;
+  }
+
+  .search-icon {
+    font-size: 26px;
+  }
+
+  .cart-icon {
+    font-size: 36px;
+    margin: $auto;
+  }
+
+  .shop-cart {
+    padding: $val-0 15px;
+  }
+}
